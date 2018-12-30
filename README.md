@@ -1,7 +1,7 @@
 # CNF
 Converts any context-free grammar into a weakly equivalent grammar in Chomsky Normal Form
 
-#About Chomsky Normal Form
+# About Chomsky Normal Form
 A grammar is in Chomsky Normal Form if all its productions are either of the form:
     A -> BC
 or of the form:
@@ -11,7 +11,7 @@ Any context-free grammar can be matched to some weakly equivalent grammar in CNF
 
 Conversion to Chomsky Normal Form is useful for certain parsing algorithms.
 
-#How to use
+# How to use
 The input file should be a context-free grammar in a format supported by NLTK
 
 Example grammar file:
@@ -29,5 +29,5 @@ Example usage:
 ```
 python cnf.py my_grammar.cfg > my_cnf_grammar.cfg
 ```
-#Version
-This code runs with Python 2.7
+# Dependencies
+This code requires Python 2.7 and NLTK
