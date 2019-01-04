@@ -30,4 +30,4 @@ Example usage:
 python cnf.py my_grammar.cfg > my_cnf_grammar.cfg
 ```
 # Dependencies
-This code requires Python 2.7 and NLTK
+This code was developed using Python 2.7 and NLTK 3.2
